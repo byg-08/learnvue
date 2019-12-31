@@ -80,12 +80,15 @@
         </a>
       </li>
     </ul>
+    <my-cmp></my-cmp>
   </div>
 </template>
 
 <script>
+  import MyCmp from "@/components/myCmp";
   export default {
     name: 'HelloWorld',
+    components: {MyCmp},
     data() {
       return {
         msg: 'Welcome to Your Vue.js App GO'
